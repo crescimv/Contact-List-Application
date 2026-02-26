@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module6.ContactDetailsPage"
+             Title="ContactDetailsPage">
+    <VerticalStackLayout>
+        <Image Source= "{Binding ContactImage}" WidthRequest="200"/>
+        <Label Text="{Binding PhoneNumber}" HorizontalOptions="Center" Margin="10" FontSize="Medium"/>
+        <Label Text="{Binding ContactName}" HorizontalOptions="Center" Margin="10" FontSize="Medium"/>
+        <Label Text="{Binding Description}" HorizontalOptions="Center" Margin="10" FontSize="Small"/>
+    </VerticalStackLayout>
+</ContentPage>
